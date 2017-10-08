@@ -1,0 +1,207 @@
+/*页面部分公用样式*/
+html, body {
+    width: 100%;
+    height: 100%;
+
+    
+}
+.border_none{
+    border: none!important;
+}
+.active {
+    background-color: #61BBE2;
+
+}
+.navigation_active{
+    background-color: white;
+    border-bottom: 3px solid #61BBE2;
+}
+.active a {
+    color: white !important;
+}
+
+.mt {
+    margin-top: 10px;
+}
+.mt_25{
+    margin-top: 25px;
+}
+.mf{
+    margin-left: 15px;
+}
+.pf{
+    padding-left: 20px;
+}
+/*公用样式结束，左侧总模块样式*/
+.space_left {
+    width: 115px;
+    height: 100%;
+    float: left;
+
+}
+
+.space_left li {
+
+    width: 100%;
+}
+
+.space_left li a {
+    font-size: 14px;
+    display: inline-block;
+    padding-left: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+
+/*左侧模块结束，右侧模块开始*/
+/*右侧聊天室管理开始*/
+.space_right {
+    height: 100%;
+    margin-left: 115px;
+    padding-top: 20px;
+}
+
+.space_right .space_right_chatroom {
+    height: 29px;
+    width: 98%;
+    border-bottom:  1px solid #ccc;
+    border-left:  1px solid #ccc;
+    padding-left: 22px;
+}
+
+.space_right .space_right_chatroom span:nth-of-type(1) {
+    color: #61BBE2;
+}
+
+/*右侧聊天室管理结束*/
+/*右侧导航栏开始*/
+.space_right_navigation {
+    margin-top: 20px;
+    margin-left: 20px;
+     height: 515px;
+    width: 98%;
+    border: 1px solid #BDC0C0;
+    background-color: white;
+    overflow: hidden;
+ }
+.space_right_navigation ul{
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: #F0F6F7;
+
+    overflow: hidden;
+}
+.space_right_navigation li{
+
+    float: left;
+
+}
+.space_right_navigation li a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/*导航栏结束*/
+/*查询条件开始*/
+.space_right_navigation form{
+     display: inline-block;
+     vertical-align:bottom;
+}
+.space_right_navigation form input:nth-of-type(1){
+    width: 277px;
+    height: 26px;
+     border: 1px solid #7D7D7D;
+    color: #ccc;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+.space_right_navigation form input:nth-of-type(2){
+     width: 130px;
+    height: 28px;
+    background-color:#61BBE2;
+    margin-left:15px;
+}
+
+.space_right_navigation span:nth-of-type(1) i{
+    color: red;
+}
+.space_right_navigation span:nth-of-type(2){
+    color:#61BBE2 ;
+}
+.space_right_navigation .space_inquiry{
+
+    width: 100%;
+    height: 80px;
+    background-color: #F0F6F7;
+ }
+/*查询条件结束*/
+/*表格模块开始*/
+.space_invitation_table{
+    width: 100%;;
+    text-align: center;
+    border-collapse: collapse
+  }
+.space_invitation_table input[type=button]{
+    height: 20px;
+    width: 60px;
+    background-color: #61BBE2;
+}
+.space_invitation_table .button_danger{
+    background-color:red!important;
+}
+.space_right .space_invitation_table th{
+    height: 35px;
+    background-color:#F0F6F7;
+     border-right: 1px solid #ccc;
+    color: #555;
+    font-size: 15px;
+}
+.space_right .space_invitation_table th:last-of-type{
+    border-right:none;
+}
+
+.space_right .space_invitation_table td{
+    height: 30px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+ }
+.space_invitation_table .input_tdone{
+    padding-left: 30px;
+}
+.space_invitation_table .input_tdtwo{
+    text-align: left;
+
+ }
+.space_invitation_table .input_tdtwo input{
+    background-color: red!important;
+}
+/*表格模块结束*/
+.space_page{
+    padding-left: 25px;
+
+}
+.space_page input{
+    width: 80px;
+    height: 27px;
+    vertical-align:bottom;
+}
+.space_page input:nth-of-type(1){
+    background-color: #61BBE2;
+    margin-right: 4px;
+
+}
+.space_page span{
+
+   display: inline-block;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    border: 1px solid #ccc;
+    margin-left: -5px;
+    text-align: center;
+}
+.space_page span:nth-of-type(2){
+    background-color: #61BBE2;
+}
